@@ -1,0 +1,30 @@
+{
+  "name": "end-to-end-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "devEasy": "tsc -b && node dist/easy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@prisma/client": "^6.4.1",
+    "@types/express": "^5.0.0",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "jest": "^29.7.0",
+    "prisma": "^6.4.1"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.5",
+    "vitest": "^3.0.7",
+    "vitest-mock-extended": "^3.0.1"
+  }
+}
