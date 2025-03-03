@@ -19,7 +19,7 @@ describe("testing the sum endpoint", () => {
         // expect(response.data.response).toBe(30)
 
         prismaClient.request.create.mockResolvedValue({
-            id: 1,
+            id: 2,
             a: 10,
             b: 20,
             answer: 30,
@@ -43,7 +43,7 @@ describe("testing the sum endpoint", () => {
                 }
             })
             expect(response.body.response).toBe(35);
-            expect(response.body.id).toBe(1)
+            expect(response.body.id).toBe(2)
         })
     });
 
